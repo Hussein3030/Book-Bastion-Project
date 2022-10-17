@@ -12,8 +12,8 @@ public class Tietokanta {
 		try {
 
 			String url = "jdbc:mariadb://mysql.metropolia.fi/rikukosk";
-			String username = "rikukosk";
-			String password = "Mustekala1337";
+			String username = "";
+			String password = "";
 
 			Connection connection = DriverManager.getConnection(url, username, password);
 
